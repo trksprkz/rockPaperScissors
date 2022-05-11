@@ -1,8 +1,8 @@
-const choices = ["rock", "paper", "scissors"];
+const choices = ["rock", "paper", "scissors"]; //3 choices to chose from
 let winners = [];
 
 function game() {
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= 5; i++) { //loop to play upto 5 rounds
     playRound(i);
   }
 
